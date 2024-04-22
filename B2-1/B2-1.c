@@ -4,7 +4,7 @@
 /*             Objetivo: Exercício envolvendo pilha                         */
 /*             Paradigama: Programação Modular                              */
 /*                                                                          */
-/*                                                       Data:20/04/2024    */
+/*     Nome: Eric Valencia Chagas                        Data:20/04/2024    */
 /*--------------------------------------------------------------------------*/
 #include <stdio.h>
 #include <stdlib.h>
