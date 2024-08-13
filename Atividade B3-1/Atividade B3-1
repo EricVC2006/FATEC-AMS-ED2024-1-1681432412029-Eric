@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <time.h>
+
+int main() {
+  int arry[5] = {1, 2, 3, 4, 5};
+  int soma = 0;
+  clock_t começo, fim;
+
+  // Record the start time
+  começo = clock();
+
+  // Calculate the sum of the array elements
+  for (int i = 0; i < 5; i++) {
+    soma += arry[i];
+    // Record the time after each iteration
+    fim = clock();
+    printf("Tempo para a primeira interação %d: %f seconds\n", i + 1, (double)(fim - começo) / CLOCKS_PER_SEC);
+
+  }
+
+  // Print the sum and total time
+  printf("soma dos elementos do arry: %d\n", soma);
+  printf("Total de tempo para executar o programa: %f seconds\n", (double)(fim - começo) / CLOCKS_PER_SEC);
+  começo = fim; // Reset start_time for the next iteration
+  return 0;
+}
