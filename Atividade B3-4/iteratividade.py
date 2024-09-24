@@ -1,5 +1,20 @@
 from datetime import datetime
 
+    # Autores:
+    # Felipe Torquato
+    # Henrique Canosa
+    
+    # Equipe:
+    # Bruno Tonaki
+    # Eric Chagas
+    # Felipe Torquato
+    # Henrique Canosa
+
+    # Data:
+    # 24/09/2024
+    # Prof Verissímo
+    # Paradigma: Iteratividade
+
 # Definição do Produto com nome, preço, data de validade e quantidade
 class Produto:
     def __init__(self, nome, preco, data_validade, quantidade):
