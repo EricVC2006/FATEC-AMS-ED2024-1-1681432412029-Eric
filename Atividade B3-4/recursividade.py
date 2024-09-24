@@ -1,4 +1,18 @@
 class Produto:
+    # Autores:
+    #Bruno Tonaki
+    #Eric Chagas
+    
+    # Equipe:
+    # Bruno Tonaki
+    # Eric Chagas
+    # Felipe Torquato
+    # Henrique Canosa
+
+    # Data:
+    # 24/09/2024
+    # Prof Verissímo
+    # Paradigma: Recursividade
     def __init__(self, nome, preco, validade, quantidade):
         self.nome = nome
         self.preco = preco
