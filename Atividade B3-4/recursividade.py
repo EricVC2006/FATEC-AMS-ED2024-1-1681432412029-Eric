@@ -102,7 +102,6 @@ def mescla_por_quantidade(esquerda, direita):
     resultado.extend(esquerda or direita)
     return resultado
 
-# Função para inserir produtos manualmente
 def inserir_produtos():
     produtos = []
     num_produtos = int(input("Quantos produtos deseja inserir? "))
@@ -116,10 +115,8 @@ def inserir_produtos():
 
     return produtos
 
-# Exemplo de uso com inserção manual
 produtos = inserir_produtos()
 
-# Ordenar e exibir os produtos
 print("\nEscolha o critério de ordenação:")
 print("1. Nome")
 print("2. Preço")
@@ -139,7 +136,6 @@ else:
     print("Critério inválido. Ordenando por nome como padrão.")
     produtos_ordenados = ordena_por_nome(produtos)
 
-# Exibir os produtos ordenados
 print("\nProdutos ordenados:")
 for produto in produtos_ordenados:
     print(produto)
