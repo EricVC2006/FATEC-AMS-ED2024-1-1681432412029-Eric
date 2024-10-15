@@ -1,17 +1,27 @@
-#include <stdio.h>
+include <stdio.h>
 
-// Função para realizar o Bubble Sort
+// Função otimizada para realizar o Bubble Sort
 void bubbleSort(int arr[], int n) {
     int i, j, temp;
+    int swapped;
+
     for (i = 0; i < n - 1; i++) {
+        swapped = 0; // Variável para verificar se houve troca
+
+        // Itera sobre os elementos do array
         for (j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
                 // Troca os elementos se estiverem fora de ordem
                 temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
+                swapped = 1; // Marca que houve troca
             }
         }
+
+        // Se não houve troca, o array já está ordenado
+        if (!swapped)
+            break;
     }
 }
 
@@ -46,5 +56,5 @@ int main() {
     }
 
     printf("\n");
-    return 0;
+    return 0;
 }
