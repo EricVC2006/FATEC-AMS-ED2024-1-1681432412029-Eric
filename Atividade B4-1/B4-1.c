@@ -1,3 +1,17 @@
+/*---------------------------------------------------------------------*/
+/*     FATEC-AR                      Estrutura de Dados                */ 
+/*                        bubble sort                                  */
+/*     Prof. Carlos Henrique Veríssimo                                 */
+/*---------------------------------------------------------------------*/
+/*
+0- O programa deverá solicitar a entrada de "n" números.
+1- Cada numero  deverá ocupar um lugar no array, de acordo com  a sequencia de entrada. 
+2- Dever deverá ser mostrado  o array  que se formou com estas entradas (posição original do array)
+3- Fazer a classificação utilizando o método Bubble  Sort
+4- Ao final, mostrar o array ordenado.                                  */
+/*---------------------------------------------------------------------*/
+
+
 include <stdio.h>
 
 // Função otimizada para realizar o Bubble Sort
